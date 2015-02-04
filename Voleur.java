@@ -1,7 +1,8 @@
 /**
  * Created by 201037629 on 2015-01-30.
  */
-public class Voleur extends Personnage {
+final public class Voleur extends Personnage
+ {
    private int nbLarcin;
     static int nbvoleurs;
     public Voleur(String nom,char sexe)
